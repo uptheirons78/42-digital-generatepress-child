@@ -1,0 +1,107 @@
+/*
+ Theme Name:   42Digital
+ Theme URI:    https://generatepress.com
+ Description:  42Digital Default GeneratePress starter theme
+ Author:       Mauro Bono
+ Author URI:   https://maurobono.com
+ Template:     generatepress
+ Version:      0.1
+*/
+
+/* === Local Fonts === */
+/* inter-100 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100;
+  src: url('assets/fonts/inter-v12-latin-100.woff2') format('woff2'),
+       url('assets/fonts/inter-v12-latin-100.woff') format('woff');
+}
+/* inter-200 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 200;
+  src: url('assets/fonts/inter-v12-latin-200.woff2') format('woff2'),
+       url('assets/fonts/inter-v12-latin-200.woff') format('woff');
+}
+/* inter-300 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  src: url('assets/fonts/inter-v12-latin-300.woff2') format('woff2'),
+       url('assets/fonts/inter-v12-latin-300.woff') format('woff');
+}
+/* inter-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('assets/fonts/inter-v12-latin-regular.woff2') format('woff2'),
+       url('assets/fonts/inter-v12-latin-regular.woff') format('woff');
+}
+/* inter-500 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  src: url('assets/fonts/inter-v12-latin-500.woff2') format('woff2'),
+       url('assets/fonts/inter-v12-latin-500.woff') format('woff');
+}
+/* inter-600 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  src: url('assets/fonts/inter-v12-latin-600.woff2') format('woff2'),
+       url('assets/fonts/inter-v12-latin-600.woff') format('woff');
+}
+/* inter-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: url('assets/fonts/inter-v12-latin-700.woff2') format('woff2'),
+       url('assets/fonts/inter-v12-latin-700.woff') format('woff');
+}
+/* inter-800 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  src: url('assets/fonts/inter-v12-latin-800.woff2') format('woff2'),
+       url('assets/fonts/inter-v12-latin-800.woff') format('woff');
+}
+/* inter-900 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  src: url('assets/fonts/inter-v12-latin-900.woff2') format('woff2'),
+       url('assets/fonts/inter-v12-latin-900.woff') format('woff');
+}
+
+/* === Buttons === */
+.mb-btn {transition: all 350ms ease-in;}
+
+/* === Off Canvas Menu === */
+#generate-slideout-menu:before {
+  position: absolute; 
+  width: 100%;
+  height: 100%;
+  content:'';
+  background: #000;
+  background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)), url(./assets/img/slide-menu-2.jpg);
+  background-position: center center;
+  background-size: cover;
+}
